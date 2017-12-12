@@ -78,16 +78,16 @@ drawing3D.prototype.initCamera = function () {
 drawing3D.prototype.initScene=function() {
     var _this = this;
     _this.scene = new THREE.Scene();
-    var axes = new THREE.AxesHelper(2000);//x红 y绿 z蓝
-    _this.scene.add(axes);
+    //var axes = new THREE.AxesHelper(2000);//x红 y绿 z蓝
+    //_this.scene.add(axes);
 }
 
 drawing3D.prototype.initHelpGrid = function () {
     var _this = this;
-    if (_this.option.showHelpGrid) {
+    /*if (_this.option.showHelpGrid) {
         var helpGrid = new THREE.GridHelper(1000, 50);
         _this.scene.add(helpGrid);
-    }
+    }*/
 }
 
 drawing3D.prototype.initLight = function () {
@@ -140,6 +140,10 @@ drawing3D.prototype.InitAddObject = function (_obj) {
             case 'cloneObj':
                 _tempObj = _this.commonFunc.cloneObj(_obj.copyfrom, _obj);
                 _this.addObject(_tempObj);
+                break;
+            case 'Sprite':
+                _tempObj = _this.createSpriteShape();
+
                 break;
         }
     }
@@ -396,14 +400,14 @@ drawing3D.prototype.mergeModel = function (_this, mergeOP, _fobj, _sobj) {
         centroid.add(result.geometry.vertices[face.b]);
         centroid.add(result.geometry.vertices[face.c]);
         centroid.divideScalar(3);//将这个向量除以标量s
-        var arrow = new THREE.ArrowHelper(
+        /*var arrow = new THREE.ArrowHelper(
             face.normal,
             centroid,
             200,
             0x3333FF,
             0.5,
             0.5)
-        result.add(arrow)
+        result.add(arrow)*/
     }
     for(var a = 0; a < result.geometry.vertices.length;a++){
         console.log(result.geometry.vertices[a].x,result.geometry.vertices[a].y,result.geometry.vertices[a].z)
@@ -817,6 +821,7 @@ drawing3D.prototype.createPlaneGeometry = function (_this,_obj) {
 
 drawing3D.prototype.addObject = function (object) {
     this.scene.add(object);
+    this.objects.push(object)
 }
 
 drawing3D.prototype.addTestObj = function () {
@@ -849,3 +854,53 @@ drawing3D.prototype.addTestObj = function () {
     });
     this.addObject(plane)
 }
+
+/*drawing3D.prototype.createSpriteShape = function () {
+    var canvas = document.createElement("canvas");
+    canvas.width = 120;
+    canvas.height = 120;
+    /!*2、创建图形，这部分可以去看w3c canvas教程*!/
+    var ctx = canvas.getContext("2d");
+    ctx.fillStyle = "#ff0000";
+    ctx.arc(50,50,50,0,2*Math.PI);
+    ctx.fill();
+    /!*3、将canvas作为纹理，创建Sprite*!/
+    var texture = new THREE.Texture(canvas);
+    texture.needsUpdate = true; //注意这句不能少
+    var material = new THREE.SpriteMaterial({map:texture});
+    var mesh = new THREE.Sprite(material);
+    /!*4、放大图片，每个精灵有自己的大小，默认情况下都是很小的，如果你不放大，基本是看不到的*!/
+    mesh.scale.set(100,100,1);
+    mesh.position.set(-100,250,-180);
+    return mesh;
+}*/
+
+
+drawing3D.prototype.createSpriteShape = function () {
+    var _this = this;
+    var canvas = document.createElement("canvas");
+    canvas.width = 77;
+    canvas.height = 107;
+    var img = new Image();
+    img.src = 'http://192.168.99.1:8081/img/alarm.png';
+
+    /!*2、创建图形，这部分可以去看w3c canvas教程*!/
+    var ctx = canvas.getContext("2d");
+    img.onload = function () {
+        ctx.drawImage(img, 0, 0);
+
+        /!*3、将canvas作为纹理，创建Sprite*!/
+        var texture = new THREE.Texture(canvas);
+        texture.needsUpdate = true; //注意这句不能少
+        var material = new THREE.SpriteMaterial({map:texture});
+        var mesh = new THREE.Sprite(material);
+        /!*4、放大图片，每个精灵有自己的大小，默认情况下都是很小的，如果你不放大，基本是看不到的*!/
+        mesh.scale.set(30,30,1);
+        mesh.position.set(-100,250,-180);
+        var object = _this.objects[_this.objects.length-1];
+        mesh.lookAt(object.geometry.faces[5].normal)
+
+        _this.addObject(mesh);
+    }
+}
+

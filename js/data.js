@@ -675,6 +675,853 @@ function threeStart() {
                     }
                 }
             },
+            {
+                show:true,
+                name: 'cabinet1_1',
+                shellname:'cabinet1_1_shell',
+                uuid: '',
+                // rotation: [{ direction: 'y', degree: 0.25*Math.PI}],//旋转     uuid:'',
+                objType: 'emptyCabinet',
+                transparent:true,
+                size:{length:66,width:70,height:200, thick:2},
+                position: { x:300, y: 105, z: -114 },
+                doors: {
+                    doorType:'lr',// ud上下门 lr左右门 单门可以缺省
+                    doorSize: [1],
+                    doorname: ['cabinet1_1_door_01'],
+                    skins:[ {
+                        skinColor: 0x333333,
+                        skin_fore: {
+                            imgurl: "../img/rack_door_back.jpg",
+                        },
+                        skin_behind: {
+                            imgurl: "../img/rack_front_door.jpg",
+                        }
+                    }]
+                },
+                skin:{
+                    skinColor: 0xff0000,
+                    skin_up: {
+                        skin:{
+                            skinColor: 0xff0000,
+                            skin_up: { imgurl: "../img/rack_door_back.jpg" },
+                            skin_down: { imgurl: "../img/rack_door_back.jpg" },
+                            skin_fore: {
+                                skinColor: 0xff0000,
+                                imgurl: "../img/rack_door_back.jpg"
+                            },
+                            skin_behind: {
+                                skinColor: 0xff0000,
+                                imgurl: "../img/rack_door_back.jpg"
+                            },
+                            skin_left: { imgurl: "../img/rack_door_back.jpg" },
+                            skin_right: { imgurl: "../img/rack_door_back.jpg" },
+                        }
+                    },
+                    skin_down: {
+                        skin: {
+                            skinColor: 0x333333,
+                        }
+                    },
+                    skin_left: {
+                        skin: {
+                            skinColor: 0x333333,
+                        }
+                    },
+                    skin_right: {
+                        skin: {
+                            skinColor: 0x333333,
+                        }
+                    },
+                    skin_behind: {
+                        skin: {
+                            skinColor: 0x333333,
+                        }
+                    }
+                }
+            },
+            {
+                show:true,
+                name: 'cabinet1_1',
+                shellname:'cabinet1_1_shell',
+                uuid: '',
+                // rotation: [{ direction: 'y', degree: 0.25*Math.PI}],//旋转     uuid:'',
+                objType: 'emptyCabinet',
+                transparent:true,
+                size:{length:66,width:70,height:200, thick:2},
+                position: { x:300, y: 105, z: -48 },
+                doors: {
+                    doorType:'lr',// ud上下门 lr左右门 单门可以缺省
+                    doorSize: [1],
+                    doorname: ['cabinet1_1_door_01'],
+                    skins:[ {
+                        skinColor: 0x333333,
+                        skin_fore: {
+                            imgurl: "../img/rack_door_back.jpg",
+                        },
+                        skin_behind: {
+                            imgurl: "../img/rack_front_door.jpg",
+                        }
+                    }]
+                },
+                skin:{
+                    skinColor: 0xff0000,
+                    skin_up: {
+                        skin:{
+                            skinColor: 0xff0000,
+                            skin_up: { imgurl: "../img/rack_door_back.jpg" },
+                            skin_down: { imgurl: "../img/rack_door_back.jpg" },
+                            skin_fore: {
+                                skinColor: 0xff0000,
+                                imgurl: "../img/rack_door_back.jpg"
+                            },
+                            skin_behind: {
+                                skinColor: 0xff0000,
+                                imgurl: "../img/rack_door_back.jpg"
+                            },
+                            skin_left: { imgurl: "../img/rack_door_back.jpg" },
+                            skin_right: { imgurl: "../img/rack_door_back.jpg" },
+                        }
+                    },
+                    skin_down: {
+                        skin: {
+                            skinColor: 0x333333,
+                        }
+                    },
+                    skin_left: {
+                        skin: {
+                            skinColor: 0x333333,
+                        }
+                    },
+                    skin_right: {
+                        skin: {
+                            skinColor: 0x333333,
+                        }
+                    },
+                    skin_behind: {
+                        skin: {
+                            skinColor: 0x333333,
+                        }
+                    }
+                }
+            },
+            {
+                show:true,
+                name: 'cabinet1_1',
+                shellname:'cabinet1_1_shell',
+                uuid: '',
+                // rotation: [{ direction: 'y', degree: 0.25*Math.PI}],//旋转     uuid:'',
+                objType: 'emptyCabinet',
+                transparent:true,
+                size:{length:66,width:70,height:200, thick:2},
+                position: { x:300, y: 105, z: 18 },
+                doors: {
+                    doorType:'lr',// ud上下门 lr左右门 单门可以缺省
+                    doorSize: [1],
+                    doorname: ['cabinet1_1_door_01'],
+                    skins:[ {
+                        skinColor: 0x333333,
+                        skin_fore: {
+                            imgurl: "../img/rack_door_back.jpg",
+                        },
+                        skin_behind: {
+                            imgurl: "../img/rack_front_door.jpg",
+                        }
+                    }]
+                },
+                skin:{
+                    skinColor: 0xff0000,
+                    skin_up: {
+                        skin:{
+                            skinColor: 0xff0000,
+                            skin_up: { imgurl: "../img/rack_door_back.jpg" },
+                            skin_down: { imgurl: "../img/rack_door_back.jpg" },
+                            skin_fore: {
+                                skinColor: 0xff0000,
+                                imgurl: "../img/rack_door_back.jpg"
+                            },
+                            skin_behind: {
+                                skinColor: 0xff0000,
+                                imgurl: "../img/rack_door_back.jpg"
+                            },
+                            skin_left: { imgurl: "../img/rack_door_back.jpg" },
+                            skin_right: { imgurl: "../img/rack_door_back.jpg" },
+                        }
+                    },
+                    skin_down: {
+                        skin: {
+                            skinColor: 0x333333,
+                        }
+                    },
+                    skin_left: {
+                        skin: {
+                            skinColor: 0x333333,
+                        }
+                    },
+                    skin_right: {
+                        skin: {
+                            skinColor: 0x333333,
+                        }
+                    },
+                    skin_behind: {
+                        skin: {
+                            skinColor: 0x333333,
+                        }
+                    }
+                }
+            },
+            {
+                show:true,
+                name: 'cabinet1_1',
+                shellname:'cabinet1_1_shell',
+                uuid: '',
+                // rotation: [{ direction: 'y', degree: 0.25*Math.PI}],//旋转     uuid:'',
+                objType: 'emptyCabinet',
+                transparent:true,
+                size:{length:66,width:70,height:200, thick:2},
+                position: { x:300, y: 105, z: 84 },
+                doors: {
+                    doorType:'lr',// ud上下门 lr左右门 单门可以缺省
+                    doorSize: [1],
+                    doorname: ['cabinet1_1_door_01'],
+                    skins:[ {
+                        skinColor: 0x333333,
+                        skin_fore: {
+                            imgurl: "../img/rack_door_back.jpg",
+                        },
+                        skin_behind: {
+                            imgurl: "../img/rack_front_door.jpg",
+                        }
+                    }]
+                },
+                skin:{
+                    skinColor: 0xff0000,
+                    skin_up: {
+                        skin:{
+                            skinColor: 0xff0000,
+                            skin_up: { imgurl: "../img/rack_door_back.jpg" },
+                            skin_down: { imgurl: "../img/rack_door_back.jpg" },
+                            skin_fore: {
+                                skinColor: 0xff0000,
+                                imgurl: "../img/rack_door_back.jpg"
+                            },
+                            skin_behind: {
+                                skinColor: 0xff0000,
+                                imgurl: "../img/rack_door_back.jpg"
+                            },
+                            skin_left: { imgurl: "../img/rack_door_back.jpg" },
+                            skin_right: { imgurl: "../img/rack_door_back.jpg" },
+                        }
+                    },
+                    skin_down: {
+                        skin: {
+                            skinColor: 0x333333,
+                        }
+                    },
+                    skin_left: {
+                        skin: {
+                            skinColor: 0x333333,
+                        }
+                    },
+                    skin_right: {
+                        skin: {
+                            skinColor: 0x333333,
+                        }
+                    },
+                    skin_behind: {
+                        skin: {
+                            skinColor: 0x333333,
+                        }
+                    }
+                }
+            },
+            {
+                show:true,
+                name: 'cabinet1_1',
+                shellname:'cabinet1_1_shell',
+                uuid: '',
+                // rotation: [{ direction: 'y', degree: 0.25*Math.PI}],//旋转     uuid:'',
+                objType: 'emptyCabinet',
+                transparent:true,
+                size:{length:66,width:70,height:200, thick:2},
+                position: { x:300, y: 105, z: 150 },
+                doors: {
+                    doorType:'lr',// ud上下门 lr左右门 单门可以缺省
+                    doorSize: [1],
+                    doorname: ['cabinet1_1_door_01'],
+                    skins:[ {
+                        skinColor: 0x333333,
+                        skin_fore: {
+                            imgurl: "../img/rack_door_back.jpg",
+                        },
+                        skin_behind: {
+                            imgurl: "../img/rack_front_door.jpg",
+                        }
+                    }]
+                },
+                skin:{
+                    skinColor: 0xff0000,
+                    skin_up: {
+                        skin:{
+                            skinColor: 0xff0000,
+                            skin_up: { imgurl: "../img/rack_door_back.jpg" },
+                            skin_down: { imgurl: "../img/rack_door_back.jpg" },
+                            skin_fore: {
+                                skinColor: 0xff0000,
+                                imgurl: "../img/rack_door_back.jpg"
+                            },
+                            skin_behind: {
+                                skinColor: 0xff0000,
+                                imgurl: "../img/rack_door_back.jpg"
+                            },
+                            skin_left: { imgurl: "../img/rack_door_back.jpg" },
+                            skin_right: { imgurl: "../img/rack_door_back.jpg" },
+                        }
+                    },
+                    skin_down: {
+                        skin: {
+                            skinColor: 0x333333,
+                        }
+                    },
+                    skin_left: {
+                        skin: {
+                            skinColor: 0x333333,
+                        }
+                    },
+                    skin_right: {
+                        skin: {
+                            skinColor: 0x333333,
+                        }
+                    },
+                    skin_behind: {
+                        skin: {
+                            skinColor: 0x333333,
+                        }
+                    }
+                }
+            },
+            {
+                show:true,
+                name: 'cabinet1_1',
+                shellname:'cabinet1_1_shell',
+                uuid: '',
+                // rotation: [{ direction: 'y', degree: 0.25*Math.PI}],//旋转     uuid:'',
+                objType: 'emptyCabinet',
+                transparent:true,
+                size:{length:66,width:70,height:200, thick:2},
+                position: { x:300, y: 105, z: 216 },
+                doors: {
+                    doorType:'lr',// ud上下门 lr左右门 单门可以缺省
+                    doorSize: [1],
+                    doorname: ['cabinet1_1_door_01'],
+                    skins:[ {
+                        skinColor: 0x333333,
+                        skin_fore: {
+                            imgurl: "../img/rack_door_back.jpg",
+                        },
+                        skin_behind: {
+                            imgurl: "../img/rack_front_door.jpg",
+                        }
+                    }]
+                },
+                skin:{
+                    skinColor: 0xff0000,
+                    skin_up: {
+                        skin:{
+                            skinColor: 0xff0000,
+                            skin_up: { imgurl: "../img/rack_door_back.jpg" },
+                            skin_down: { imgurl: "../img/rack_door_back.jpg" },
+                            skin_fore: {
+                                skinColor: 0xff0000,
+                                imgurl: "../img/rack_door_back.jpg"
+                            },
+                            skin_behind: {
+                                skinColor: 0xff0000,
+                                imgurl: "../img/rack_door_back.jpg"
+                            },
+                            skin_left: { imgurl: "../img/rack_door_back.jpg" },
+                            skin_right: { imgurl: "../img/rack_door_back.jpg" },
+                        }
+                    },
+                    skin_down: {
+                        skin: {
+                            skinColor: 0x333333,
+                        }
+                    },
+                    skin_left: {
+                        skin: {
+                            skinColor: 0x333333,
+                        }
+                    },
+                    skin_right: {
+                        skin: {
+                            skinColor: 0x333333,
+                        }
+                    },
+                    skin_behind: {
+                        skin: {
+                            skinColor: 0x333333,
+                        }
+                    }
+                }
+            },
+            //第二排
+            {
+                show:true,
+                name: 'cabinet1_1',
+                shellname:'cabinet1_1_shell',
+                uuid: '',
+                // rotation: [{ direction: 'y', degree: 0.25*Math.PI}],//旋转     uuid:'',
+                objType: 'emptyCabinet',
+                transparent:true,
+                size:{length:66,width:70,height:200, thick:2},
+                position: { x:150, y: 105, z: -180 },
+                doors: {
+                    doorType:'lr',// ud上下门 lr左右门 单门可以缺省
+                    doorSize: [1],
+                    doorname: ['cabinet1_1_door_01'],
+                    skins:[ {
+                        skinColor: 0x333333,
+                        skin_fore: {
+                            imgurl: "../img/rack_door_back.jpg",
+                        },
+                        skin_behind: {
+                            imgurl: "../img/rack_front_door.jpg",
+                        }
+                    }]
+                },
+                skin:{
+                    skinColor: 0xff0000,
+                    skin_up: {
+                        skin:{
+                            skinColor: 0xff0000,
+                            skin_up: { imgurl: "../img/rack_door_back.jpg" },
+                            skin_down: { imgurl: "../img/rack_door_back.jpg" },
+                            skin_fore: {
+                                skinColor: 0xff0000,
+                                imgurl: "../img/rack_door_back.jpg"
+                            },
+                            skin_behind: {
+                                skinColor: 0xff0000,
+                                imgurl: "../img/rack_door_back.jpg"
+                            },
+                            skin_left: { imgurl: "../img/rack_door_back.jpg" },
+                            skin_right: { imgurl: "../img/rack_door_back.jpg" },
+                        }
+                    },
+                    skin_down: {
+                        skin: {
+                            skinColor: 0x333333,
+                        }
+                    },
+                    skin_left: {
+                        skin: {
+                            skinColor: 0x333333,
+                        }
+                    },
+                    skin_right: {
+                        skin: {
+                            skinColor: 0x333333,
+                        }
+                    },
+                    skin_behind: {
+                        skin: {
+                            skinColor: 0x333333,
+                        }
+                    }
+                }
+            },
+            {
+                show:true,
+                name: 'cabinet1_1',
+                shellname:'cabinet1_1_shell',
+                uuid: '',
+                // rotation: [{ direction: 'y', degree: 0.25*Math.PI}],//旋转     uuid:'',
+                objType: 'emptyCabinet',
+                transparent:true,
+                size:{length:66,width:70,height:200, thick:2},
+                position: { x:150, y: 105, z: -114 },
+                doors: {
+                    doorType:'lr',// ud上下门 lr左右门 单门可以缺省
+                    doorSize: [1],
+                    doorname: ['cabinet1_1_door_01'],
+                    skins:[ {
+                        skinColor: 0x333333,
+                        skin_fore: {
+                            imgurl: "../img/rack_door_back.jpg",
+                        },
+                        skin_behind: {
+                            imgurl: "../img/rack_front_door.jpg",
+                        }
+                    }]
+                },
+                skin:{
+                    skinColor: 0xff0000,
+                    skin_up: {
+                        skin:{
+                            skinColor: 0xff0000,
+                            skin_up: { imgurl: "../img/rack_door_back.jpg" },
+                            skin_down: { imgurl: "../img/rack_door_back.jpg" },
+                            skin_fore: {
+                                skinColor: 0xff0000,
+                                imgurl: "../img/rack_door_back.jpg"
+                            },
+                            skin_behind: {
+                                skinColor: 0xff0000,
+                                imgurl: "../img/rack_door_back.jpg"
+                            },
+                            skin_left: { imgurl: "../img/rack_door_back.jpg" },
+                            skin_right: { imgurl: "../img/rack_door_back.jpg" },
+                        }
+                    },
+                    skin_down: {
+                        skin: {
+                            skinColor: 0x333333,
+                        }
+                    },
+                    skin_left: {
+                        skin: {
+                            skinColor: 0x333333,
+                        }
+                    },
+                    skin_right: {
+                        skin: {
+                            skinColor: 0x333333,
+                        }
+                    },
+                    skin_behind: {
+                        skin: {
+                            skinColor: 0x333333,
+                        }
+                    }
+                }
+            },
+            {
+                show:true,
+                name: 'cabinet1_1',
+                shellname:'cabinet1_1_shell',
+                uuid: '',
+                // rotation: [{ direction: 'y', degree: 0.25*Math.PI}],//旋转     uuid:'',
+                objType: 'emptyCabinet',
+                transparent:true,
+                size:{length:66,width:70,height:200, thick:2},
+                position: { x:150, y: 105, z: -48 },
+                doors: {
+                    doorType:'lr',// ud上下门 lr左右门 单门可以缺省
+                    doorSize: [1],
+                    doorname: ['cabinet1_1_door_01'],
+                    skins:[ {
+                        skinColor: 0x333333,
+                        skin_fore: {
+                            imgurl: "../img/rack_door_back.jpg",
+                        },
+                        skin_behind: {
+                            imgurl: "../img/rack_front_door.jpg",
+                        }
+                    }]
+                },
+                skin:{
+                    skinColor: 0xff0000,
+                    skin_up: {
+                        skin:{
+                            skinColor: 0xff0000,
+                            skin_up: { imgurl: "../img/rack_door_back.jpg" },
+                            skin_down: { imgurl: "../img/rack_door_back.jpg" },
+                            skin_fore: {
+                                skinColor: 0xff0000,
+                                imgurl: "../img/rack_door_back.jpg"
+                            },
+                            skin_behind: {
+                                skinColor: 0xff0000,
+                                imgurl: "../img/rack_door_back.jpg"
+                            },
+                            skin_left: { imgurl: "../img/rack_door_back.jpg" },
+                            skin_right: { imgurl: "../img/rack_door_back.jpg" },
+                        }
+                    },
+                    skin_down: {
+                        skin: {
+                            skinColor: 0x333333,
+                        }
+                    },
+                    skin_left: {
+                        skin: {
+                            skinColor: 0x333333,
+                        }
+                    },
+                    skin_right: {
+                        skin: {
+                            skinColor: 0x333333,
+                        }
+                    },
+                    skin_behind: {
+                        skin: {
+                            skinColor: 0x333333,
+                        }
+                    }
+                }
+            },
+            {
+                show:true,
+                name: 'cabinet1_1',
+                shellname:'cabinet1_1_shell',
+                uuid: '',
+                // rotation: [{ direction: 'y', degree: 0.25*Math.PI}],//旋转     uuid:'',
+                objType: 'emptyCabinet',
+                transparent:true,
+                size:{length:66,width:70,height:200, thick:2},
+                position: { x:150, y: 105, z: 18 },
+                doors: {
+                    doorType:'lr',// ud上下门 lr左右门 单门可以缺省
+                    doorSize: [1],
+                    doorname: ['cabinet1_1_door_01'],
+                    skins:[ {
+                        skinColor: 0x333333,
+                        skin_fore: {
+                            imgurl: "../img/rack_door_back.jpg",
+                        },
+                        skin_behind: {
+                            imgurl: "../img/rack_front_door.jpg",
+                        }
+                    }]
+                },
+                skin:{
+                    skinColor: 0xff0000,
+                    skin_up: {
+                        skin:{
+                            skinColor: 0xff0000,
+                            skin_up: { imgurl: "../img/rack_door_back.jpg" },
+                            skin_down: { imgurl: "../img/rack_door_back.jpg" },
+                            skin_fore: {
+                                skinColor: 0xff0000,
+                                imgurl: "../img/rack_door_back.jpg"
+                            },
+                            skin_behind: {
+                                skinColor: 0xff0000,
+                                imgurl: "../img/rack_door_back.jpg"
+                            },
+                            skin_left: { imgurl: "../img/rack_door_back.jpg" },
+                            skin_right: { imgurl: "../img/rack_door_back.jpg" },
+                        }
+                    },
+                    skin_down: {
+                        skin: {
+                            skinColor: 0x333333,
+                        }
+                    },
+                    skin_left: {
+                        skin: {
+                            skinColor: 0x333333,
+                        }
+                    },
+                    skin_right: {
+                        skin: {
+                            skinColor: 0x333333,
+                        }
+                    },
+                    skin_behind: {
+                        skin: {
+                            skinColor: 0x333333,
+                        }
+                    }
+                }
+            },
+            {
+                show:true,
+                name: 'cabinet1_1',
+                shellname:'cabinet1_1_shell',
+                uuid: '',
+                // rotation: [{ direction: 'y', degree: 0.25*Math.PI}],//旋转     uuid:'',
+                objType: 'emptyCabinet',
+                transparent:true,
+                size:{length:66,width:70,height:200, thick:2},
+                position: { x:150, y: 105, z: 84 },
+                doors: {
+                    doorType:'lr',// ud上下门 lr左右门 单门可以缺省
+                    doorSize: [1],
+                    doorname: ['cabinet1_1_door_01'],
+                    skins:[ {
+                        skinColor: 0x333333,
+                        skin_fore: {
+                            imgurl: "../img/rack_door_back.jpg",
+                        },
+                        skin_behind: {
+                            imgurl: "../img/rack_front_door.jpg",
+                        }
+                    }]
+                },
+                skin:{
+                    skinColor: 0xff0000,
+                    skin_up: {
+                        skin:{
+                            skinColor: 0xff0000,
+                            skin_up: { imgurl: "../img/rack_door_back.jpg" },
+                            skin_down: { imgurl: "../img/rack_door_back.jpg" },
+                            skin_fore: {
+                                skinColor: 0xff0000,
+                                imgurl: "../img/rack_door_back.jpg"
+                            },
+                            skin_behind: {
+                                skinColor: 0xff0000,
+                                imgurl: "../img/rack_door_back.jpg"
+                            },
+                            skin_left: { imgurl: "../img/rack_door_back.jpg" },
+                            skin_right: { imgurl: "../img/rack_door_back.jpg" },
+                        }
+                    },
+                    skin_down: {
+                        skin: {
+                            skinColor: 0x333333,
+                        }
+                    },
+                    skin_left: {
+                        skin: {
+                            skinColor: 0x333333,
+                        }
+                    },
+                    skin_right: {
+                        skin: {
+                            skinColor: 0x333333,
+                        }
+                    },
+                    skin_behind: {
+                        skin: {
+                            skinColor: 0x333333,
+                        }
+                    }
+                }
+            },
+            {
+                show:true,
+                name: 'cabinet1_1',
+                shellname:'cabinet1_1_shell',
+                uuid: '',
+                // rotation: [{ direction: 'y', degree: 0.25*Math.PI}],//旋转     uuid:'',
+                objType: 'emptyCabinet',
+                transparent:true,
+                size:{length:66,width:70,height:200, thick:2},
+                position: { x:150, y: 105, z: 150 },
+                doors: {
+                    doorType:'lr',// ud上下门 lr左右门 单门可以缺省
+                    doorSize: [1],
+                    doorname: ['cabinet1_1_door_01'],
+                    skins:[ {
+                        skinColor: 0x333333,
+                        skin_fore: {
+                            imgurl: "../img/rack_door_back.jpg",
+                        },
+                        skin_behind: {
+                            imgurl: "../img/rack_front_door.jpg",
+                        }
+                    }]
+                },
+                skin:{
+                    skinColor: 0xff0000,
+                    skin_up: {
+                        skin:{
+                            skinColor: 0xff0000,
+                            skin_up: { imgurl: "../img/rack_door_back.jpg" },
+                            skin_down: { imgurl: "../img/rack_door_back.jpg" },
+                            skin_fore: {
+                                skinColor: 0xff0000,
+                                imgurl: "../img/rack_door_back.jpg"
+                            },
+                            skin_behind: {
+                                skinColor: 0xff0000,
+                                imgurl: "../img/rack_door_back.jpg"
+                            },
+                            skin_left: { imgurl: "../img/rack_door_back.jpg" },
+                            skin_right: { imgurl: "../img/rack_door_back.jpg" },
+                        }
+                    },
+                    skin_down: {
+                        skin: {
+                            skinColor: 0x333333,
+                        }
+                    },
+                    skin_left: {
+                        skin: {
+                            skinColor: 0x333333,
+                        }
+                    },
+                    skin_right: {
+                        skin: {
+                            skinColor: 0x333333,
+                        }
+                    },
+                    skin_behind: {
+                        skin: {
+                            skinColor: 0x333333,
+                        }
+                    }
+                }
+            },
+            {
+                show:true,
+                name: 'cabinet1_1',
+                shellname:'cabinet1_1_shell',
+                uuid: '',
+                // rotation: [{ direction: 'y', degree: 0.25*Math.PI}],//旋转     uuid:'',
+                objType: 'emptyCabinet',
+                transparent:true,
+                size:{length:66,width:70,height:200, thick:2},
+                position: { x:150, y: 105, z: 216 },
+                doors: {
+                    doorType:'lr',// ud上下门 lr左右门 单门可以缺省
+                    doorSize: [1],
+                    doorname: ['cabinet1_1_door_01'],
+                    skins:[ {
+                        skinColor: 0x333333,
+                        skin_fore: {
+                            imgurl: "../img/rack_door_back.jpg",
+                        },
+                        skin_behind: {
+                            imgurl: "../img/rack_front_door.jpg",
+                        }
+                    }]
+                },
+                skin:{
+                    skinColor: 0xff0000,
+                    skin_up: {
+                        skin:{
+                            skinColor: 0xff0000,
+                            skin_up: { imgurl: "../img/rack_door_back.jpg" },
+                            skin_down: { imgurl: "../img/rack_door_back.jpg" },
+                            skin_fore: {
+                                skinColor: 0xff0000,
+                                imgurl: "../img/rack_door_back.jpg"
+                            },
+                            skin_behind: {
+                                skinColor: 0xff0000,
+                                imgurl: "../img/rack_door_back.jpg"
+                            },
+                            skin_left: { imgurl: "../img/rack_door_back.jpg" },
+                            skin_right: { imgurl: "../img/rack_door_back.jpg" },
+                        }
+                    },
+                    skin_down: {
+                        skin: {
+                            skinColor: 0x333333,
+                        }
+                    },
+                    skin_left: {
+                        skin: {
+                            skinColor: 0x333333,
+                        }
+                    },
+                    skin_right: {
+                        skin: {
+                            skinColor: 0x333333,
+                        }
+                    },
+                    skin_behind: {
+                        skin: {
+                            skinColor: 0x333333,
+                        }
+                    }
+                }
+            },
+
             //主机1
             {
                 show: true,
@@ -800,6 +1647,9 @@ function threeStart() {
                         }
                     }
                 }
+            },
+            {
+                objType: 'Sprite'
             }
         ],
         events: [],
