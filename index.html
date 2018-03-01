@@ -3,28 +3,20 @@
 <head>
     <meta charset="UTF-8">
     <title>Title</title>
+    <link rel="icon" href="./img/favicon.ico">
     <link rel="stylesheet" href="./css/index.css">
 </head>
-<body>
-<img src="./img/bg.png" style="position: absolute;width:100%;height: 100%;z-index: -1" alt="">
-<div id="Stats-output">
-</div>
-<div id="WebGL-output">
-</div>
-
-<script src="./js/three.js"></script>
-<script src="./js/loaders/OBJLoader.js"></script>
-<script src="./js/loaders/MTLLoader.js"></script>
-<script src="./js/TrackballControls.js"></script>
-<script src="./js/stats.js"></script>
-<script src="./js/dat.gui.js"></script>
-<script src="https://cdn.bootcss.com/jquery/3.2.1/jquery.js"></script>
-<script src="./js/tween.js"></script>
-<script src="./js/drawing3D.js"></script>
-<script src="./js/data.js"></script>
-<script src="./js/ThreeCSG.js"></script>
-<script>
-    threeStart()
-</script>
-</body>
+    <body>
+        <img class="bg" src="./img/bg.png" alt="">
+        <div id="tooltip">
+            <img id="reset" src="./img/reset.png" alt="">
+            <img id="space" src="./img/space.png" alt="">
+            <img id="usage" src="./img/usage.png" alt="">
+            <img id="temperature" src="./img/temperature.png" alt="">
+        </div>
+        <div id="heatmapContainerWrapper">
+            <div id="heatmapContainer" class="heatmap"> 
+            </div>
+        </div>
+    <script type="text/javascript" src="./js/app.637d837be3be9f11ed8d.js"></script></body>
 </html>
